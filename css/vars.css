@@ -1,0 +1,31 @@
+:root {
+	/***********/
+	/* General */
+	/***********/
+	--color--main: #f43;
+	--color--header-background: rgba(255,255,255,.5);
+	--color--shadow: rgba(0,0,0,.5);
+	--color--links: var(--color--main);
+	--color--links-hover: #000;
+	--transition_time: 500ms;
+	--transition_time-short: 250ms;
+
+	/*Menu*/
+	--nav--menu_button--color: var(--color--main);
+	--nav--menu_button--color-active: #fff;
+	--nav--background--color: var(--color--main);
+	--nav--link--color-hover: var(--color--main);
+	--nav--link--color: #fff;
+	--nav--link--background--color-hover: #fff;
+	--nav--link--transition_time: var(--transition_time-short);
+	/**********/
+	/* Slider */
+	/**********/
+	--slider--vertical-margin: 60px;
+	--slider--content-vertical-margin: var(--slider--vertical-margin);
+	--slider--arrow--thickness: 2px;
+	--slider--arrow--color: #fff;
+	--slider--arrow--vertical-margin: var(--slider--vertical-margin);
+	--slider--arrow--horizontal-margin: 30px;
+
+}
